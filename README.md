@@ -24,10 +24,10 @@ $upgrader->install(); // returns a boolean
 
 To upgrade the plugin/theme:
 ```
-$upgrader->upgrade();
+$upgrader->upgrade(); // returns a boolean
 ```
 
 To activate the plugin/theme:
 ```
-$upgrader->activate();
+$upgrader->activate(); // returns a boolean
 ```
