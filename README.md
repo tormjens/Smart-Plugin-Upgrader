@@ -5,7 +5,13 @@ To use to programmatically install or upgrade plugins.
 
 ## Usage
 
-First initialize the plugin. The class takes two parameters; download url and slug. Both are required.
+This will only work for plugins with a certain folder/file naming prefix. It has to look like this:
+
+```
+my-plugin-name/my-plugin-name.php
+```
+
+Initialize the plugin upgrade instance. The class takes two parameters; download url and slug. Both are required.
 
 For plugins:
 ```
