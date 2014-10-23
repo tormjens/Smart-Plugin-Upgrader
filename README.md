@@ -11,6 +11,8 @@ This will only work for plugins with a certain folder/file naming prefix. It has
 my-plugin-name/my-plugin-name.php
 ```
 
+Will probably work for all themes, as they require a `style.css` file.
+
 Initialize the plugin upgrade instance. The class takes two parameters; download url and slug. Both are required.
 
 For plugins:
